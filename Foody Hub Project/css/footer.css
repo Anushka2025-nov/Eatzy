@@ -1,0 +1,28 @@
+#footer {
+    border: 1px solid #282a35;
+    height: 220px;
+    background-color: #282a35;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#footer p {
+    margin-top: 20px;
+    color: white;
+    font-size: 28px;
+}
+
+#footer > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #cfcfcf;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4c4c4c;
+    border-radius: 5px;
+}
